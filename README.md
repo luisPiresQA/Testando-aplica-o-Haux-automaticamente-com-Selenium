@@ -1,7 +1,8 @@
 # haux_cuidando_da_sua_saude
 
 ## reportagem sobre a aplicação Haux
-Matéria criada por ![selenium-logo text-320x132] (https://www.gruporbs.com.br/noticias/wp-content/uploads/sites/3/2016/11/Babiana-Mugnol_Cr%C3%A9dito_Fernado-Dai-Pr%C3%A1.jpg) Babiana Mugnol, babiana.mugnol@rdgaucha.com.br
+Matéria criada por 
+![Screenshot](https://www.gruporbs.com.br/noticias/wp-content/uploads/sites/3/2016/11/Babiana-Mugnol_Cr%C3%A9dito_Fernado-Dai-Pr%C3%A1.png) (.jpg) Babiana Mugnol, babiana.mugnol@rdgaucha.com.br
 
 Após vender a rede Croasonho em 2017, quando o negócio se tornou uma cadeia com 80 lojas em 17 Estados, os idealizadores voltam a campo com projeto inovador de franquia na área de saúde.
 Eduardo Silva e Gustavo Susin inauguram, na próxima terça-feira, a Haux, um projeto de R$ 5 milhões com a primeira clínica-modelo em Caxias. A parceria é com o médico Clayton Macedo, doutor em endocrinologia clínica, e outros sócios. O potencial mapeado para expansão é de mais de 200 unidades em cidades acima de 60 mil habitantes no Brasil.
