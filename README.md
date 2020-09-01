@@ -1,6 +1,6 @@
-# haux_cuidando_da_sua_saude
+## Projeto testes automatizados com Selenium 
 
-## reportagem sobre a aplicação Haux
+## Qual é a aplicação a ser testada
 Matéria criada por 
 <p align="left">
   <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="50" alt="accessibility text">
@@ -11,6 +11,62 @@ Após vender a rede Croasonho em 2017, quando o negócio se tornou uma cadeia co
 Eduardo Silva e Gustavo Susin inauguram, na próxima terça-feira, a Haux, um projeto de R$ 5 milhões com a primeira clínica-modelo em Caxias. A parceria é com o médico Clayton Macedo, doutor em endocrinologia clínica, e outros sócios. O potencial mapeado para expansão é de mais de 200 unidades em cidades acima de 60 mil habitantes no Brasil.
 O novo modelo de franquia é focado em mudança intensiva de estilo de vida. A Haux abrirá na Rua Moreira César, 2.229, para trabalhar  a prevenção e o tratamento do excesso de peso, do diabetes e de doenças cardiovasculares. A estrutura também conta com academia. A nova marca será apresentada de forma online no dia 1º de setembro, às 19h,  com mediação da jornalista Laura Medina, especializada em saúde e bem-estar.
 
+## Tecnicas para testa a aplicação
+Para validar um sistema com muitos cenários de teste como esse é preciso ganhar velocidade, mas sem abrir ão da qualidade
+nos testes vou apresentar apenas dois cenários para demostrar como tirar proveito das técnicas de BDD e posteriormente apresentarei mais com o selenium
+
+
+
+## BDD
+Cenário 1: Cadastrar novo cliente
+DADO que tenho perfil de usuário 
+QUANDO preencho os campos para logar E clico en logar
+ENTÃO acesso a área interna do sitema
+
+## Atomatizando cenário 1
+  @Test
+    public void loginSucesso() throws InterruptedException {
+        login.preencherCampoNome("usuario");
+        login.preencherCampoSenha("senha");
+        login.clicarBotaoLogar();
+        wait.until(ExpectedConditions
+                .visibilityOf(login.usuarioPresenteAposLogar()));
+        String texto = login.usuarioPresenteAposLogar().getText();
+        Assert.assertEquals("aristoteles", texto);
+    }
+
+
+## BDD
+Cenário 2: Cadastrar novo cliente
+DADO que tenho perfil de administrador na aplicação 
+QUANDO quando preencho os campos obligatórios para um cadastro e clico em salvar
+ENTÃO esse novo cliente fica registrado no sistema
+
+## Atomatizando cenário 2
+  @Test
+    public void cadastrarNovoClienteProspect() {
+        cadastro.preencherCampoNomeLogin("usuario");
+        cadastro.preencherCampoSenha("senha");
+        cadastro.clicarBotaoLogar();
+            WebDriverWait wait = new WebDriverWait(driver, 30);
+            wait.until(ExpectedConditions.visibilityOf(cadastro.elementoQueDeveEstarVisivel()));
+            cadastro.clicarBotaoNovoCliente();
+            cadastro.clicarOpcaoClienteProspect();
+            cadastro.preencherCampoNomeCliente("LuisTest");
+            cadastro.preencherCampoTelefoneCliente("55386727289");
+            cadastro.preencherCampoEmailCliente("luisTeste@hotmail.com");
+            cadastro.preencherCampoDataNascimentoCliente("02071955");
+            cadastro.preencherCampoCPFCliente();
+            cadastro.selecionarOpcaoSexoBiologicoMasculino();
+            cadastro.clicarParaAbrirOpcaoComoconheceuaHaux();
+            cadastro.selecionarOpcaoIndicacaoDeCliente();
+            cadastro.clicarBotaoSalvarNovoCadastroProspect();
+        wait.until(ExpectedConditions.visibilityOf(cadastro.mensagemCadastradoComSucesso()));
+        String mensagemSucessoAlert = cadastro.mensagemCadastradoComSucesso().getText();
+        Assert.assertEquals(mensagemSucessoAlert,"Prospect cadastrado com sucesso.");
+    }
+    
+## Ferramenta usada para os testes
 ![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)
 
 ## Intalações necessarias para esse projeto
@@ -145,7 +201,9 @@ JUnit é LIVRE.
 	devmedia.com.br   https://www.devmedia.com.br/introducao-aos-testes-funcionais-automatizados-com-junit-e-selenium-webdriver/28037
 	junit.org         https://junit.org/junit5/docs/current/user-guide/
 	wikipedia.org     https://pt.wikipedia.org/wiki/JUnit
-  Lucas G. Carvalho https://medium.com/editora-globo/introdu%C3%A7%C3%A3o-ao-selenium-webdriver-8ac2f9a8d9d0
+        Lucas G. Carvalho https://medium.com/editora-globo/introdu%C3%A7%C3%A3o-ao-selenium-webdriver-8ac2f9a8d9d0
+        Babiana Mugnol    pioneiro.clicrbs.com.br/rs/economia/caixa-forte/noticia/2020/08/idealizadores-de-franquia-nacional-com-novo-sonho-13001085.html
+
 	
 	
  
