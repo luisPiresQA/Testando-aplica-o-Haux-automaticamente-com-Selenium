@@ -3,7 +3,7 @@
 ## reportagem sobre a aplicação Haux
 Matéria criada por 
 <p align="center">
-  <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="350" title="hover text">
+  <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="50" title="hover text">
   <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
 </p>
 
