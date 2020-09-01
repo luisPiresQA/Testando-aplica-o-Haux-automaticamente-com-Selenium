@@ -2,11 +2,9 @@
 
 ## reportagem sobre a aplicação Haux
 Matéria criada por 
-<p align="center">
-  <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="50" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+<p align="left">
+  <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="50" alt="accessibility text">
 </p>
-
 Babiana Mugnol, babiana.mugnol@rdgaucha.com.br
 
 Após vender a rede Croasonho em 2017, quando o negócio se tornou uma cadeia com 80 lojas em 17 Estados, os idealizadores voltam a campo com projeto inovador de franquia na área de saúde.
