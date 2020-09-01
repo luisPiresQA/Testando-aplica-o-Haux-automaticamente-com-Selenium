@@ -24,6 +24,20 @@ QUANDO preencho os campos para logar E clico en logar
 ENTÃO acesso a área interna do sitema
 
 ## Atomatizando cenário 1
+
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 React</a>
+</h1>
+<p align="center">🚀  @Test
+    public void loginSucesso() throws InterruptedException {
+        login.preencherCampoNome("usuario");
+        login.preencherCampoSenha("senha");
+        login.clicarBotaoLogar();
+        wait.until(ExpectedConditions
+                .visibilityOf(login.usuarioPresenteAposLogar()));
+        String texto = login.usuarioPresenteAposLogar().getText();
+        Assert.assertEquals("aristoteles", texto);
+    }</p
   @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
