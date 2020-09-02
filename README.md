@@ -25,9 +25,7 @@ ENTÃO acesso a área interna do sitema
 
 ## Atomatizando cenário 1
 
-<h1 align="center">
-    <a href="https://pt-br.reactjs.org/">🔗 React</a>
-</h1>
+![Selenoid Animation](123.pnj)
 <p align="center">🚀  @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
