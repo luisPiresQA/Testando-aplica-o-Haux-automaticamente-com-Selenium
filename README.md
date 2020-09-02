@@ -43,14 +43,14 @@ BDD é uma técnica de desenvolvimento de software ágil que surge através de u
 <p>IntelliJ IDEA Community Edition 2020.14</p>
 <p>ChromeDriver</p>
 
-# Lembrar de configurar variaveis de ambiente
+# Lembrar de configurar as variáveis de ambiente
 ![alt text](variaveis_ambiente.jpg)
 
-## Características Selenium WebDriver:
+## Características do Selenium WebDriver:
 
 A API Selenium WebDriver tem como principal objetivo automatizar ações do navegador, tais como submits de formulários, seleções em menus dropdown, digitação em campos texto, varredura de dados em elementos, HTML etc. Para entender melhor seus conceitos, a seguir, detalharemos algumas interfaces e outras classes principais que compõem o Selenium WebDriver.
 
-## Características JUnit: 
+## Características do JUnit: 
 Origem: Wikipédia, a enciclopédia livre.
 
 Saltar para a navegaçãoSaltar para a pesquisa
@@ -64,24 +64,9 @@ O teste de unidade testa o menor dos componentes de um sistema de maneira isolad
 
 Assert.assertEquals(2, algumMetodo(1));
 
-## Exemplo de Primeiro Teste Usando Junit: 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import example.util.Calculator;
-import org.junit.jupiter.api.Test;
+## Exemplo de teste usando Selenium e Junit: 
 
-class PrimeiroTestUsandoJunit{
-//fazendo um teste utilizando os poderes do JUnit
-int a=2;
-int b=3;
-int soma = a + b ;
-
-//anotação "@" junto com a palavra Test me permite executar o teste que verifica se a 5 é igual a soma
-@Test
-public void addition() {
-assertEquals(5, soma);
-    }
-}
-
+![](selenium.png)
 ## Comandos Selenium WebDriver
 
 	// Fecha a janela corrente.
