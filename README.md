@@ -1,10 +1,11 @@
 ## Projeto testes automatizados com Selenium 
 
 ## Qual é a aplicação a ser testada
-Matéria criada por 
+ 
 <p align="left">
   <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="50" alt="accessibility text">
 </p>
+Matéria criada por
 Babiana Mugnol, babiana.mugnol@rdgaucha.com.br
 
 Após vender a rede Croasonho em 2017, quando o negócio se tornou uma cadeia com 80 lojas em 17 Estados, os idealizadores voltam a campo com projeto inovador de franquia na área de saúde.
