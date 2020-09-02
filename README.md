@@ -38,7 +38,7 @@ ENTÃO acesso a área interna do sitema
     }
 	
 	
- ![alt text](http://url/to/123.png)
+ ![alt text](123.png)
   @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
