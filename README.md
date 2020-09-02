@@ -35,7 +35,7 @@ BDD é uma técnica de desenvolvimento de software ágil que surge através de u
 ![alt text](cadastrar_usuario_selenium.png)
 
 
-## Ferramenta usada para os testes
+## Ferramentas utilizadas para os testes
 ![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)![alt text](Junit.png)
 
 ## Intalações necessarias para esse projeto
