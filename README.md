@@ -39,7 +39,7 @@ ENTÃO acesso a área interna do sitema
         Assert.assertEquals("aristoteles", texto);
     }</p
 	
-	![Screenshot](123.png)
+	![Screenshot](screenshot.png)
   @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
