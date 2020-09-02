@@ -43,7 +43,7 @@ Para validar um sistema com inumeros cenários de teste como neste caso, é prec
 <p>ChromeDriver</p>
 
 # Lembrar de configurar variaveis de ambiente
-![alt text](variaveis_ambiente.jpg width="50")
+![alt text](variaveis_ambiente.jpg)
 
 ## Características Selenium WebDriver:
 
