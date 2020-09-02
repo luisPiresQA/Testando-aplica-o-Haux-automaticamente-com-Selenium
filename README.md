@@ -40,9 +40,7 @@ ENTÃO acesso a área interna do sitema
     }
 	
 	
- <p> <img src="123.pnj" width="350" title="hover text">
- 
-</p>
+ <p> <img src="123.pnj"></p>
   @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
