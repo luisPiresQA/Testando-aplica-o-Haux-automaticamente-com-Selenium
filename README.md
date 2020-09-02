@@ -19,14 +19,12 @@ nos testes vou apresentar apenas dois cenários para demostrar como tirar provei
 
 
 ## BDD
-Cenário 1: Cadastrar novo cliente
-DADO que tenho perfil de usuário 
-QUANDO preencho os campos para logar E clico en logar
-ENTÃO acesso a área interna do sitema
+![alt text](logar.png)
 
 ## Atomatizando cenário 1
 
-![Selenoid Animation](123.pnj)
+![alt text](logarSelenium.png)
+
 <p align="center">🚀  @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
