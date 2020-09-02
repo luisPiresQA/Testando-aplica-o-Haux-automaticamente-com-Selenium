@@ -38,6 +38,8 @@ ENTÃO acesso a área interna do sitema
         String texto = login.usuarioPresenteAposLogar().getText();
         Assert.assertEquals("aristoteles", texto);
     }</p
+	
+	![Screenshot](123.png)
   @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
