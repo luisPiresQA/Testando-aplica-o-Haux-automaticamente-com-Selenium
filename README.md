@@ -40,7 +40,7 @@ ENTÃO acesso a área interna do sitema
     }
 	
 	
- <p> <img src="luisPiresQA/haux_cuidando_da_sua_saude/123.pnj"></p>
+ ![alt text](http://url/to/123.png)
   @Test
     public void loginSucesso() throws InterruptedException {
         login.preencherCampoNome("usuario");
