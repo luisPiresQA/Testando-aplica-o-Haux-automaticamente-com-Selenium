@@ -20,23 +20,23 @@ Para validar um sistema com inumeros cenários de teste como neste caso, é prec
 BDD é uma técnica de desenvolvimento de software ágil que surge através de uma crítica de Dan North ao Test Driven Development(Desenvolvimento orientado a testes), onde ele visava otimizar o conceito de ‘verificação e validação’ já aplicado, e tornar mais eficiente a construção de cenários a serem testados e/ou desenvolvidos.
 
 ## BDD cenário 1
-![alt text](logar.png)
+![alt text](img/logar.png)
 
 ## Como fica após atomatizar o cenário 1 com Selenium e JUnit 
 
-![alt text](logarSelenium.png)
+![alt text](img/logarSelenium.png)
 
 
 ## BDD cenário 2
-![alt text](cadastrar_usuario.png)
+![alt text](img/cadastrar_usuario.png)
 
 ## Como fica após atomatizar o cenário 2 com Selenium e JUnit 
 
-![alt text](cadastrar_usuario_selenium.png) 
+![alt text](img/cadastrar_usuario_selenium.png) 
 
 
 ## Ferramentas utilizadas para os testes
-![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)![alt text](Junit.png)
+![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)![alt text](img/Junit.png)
 
 ## Intalações necessarias para esse projeto
 <p>Java versão 8 Update 261r</p>
@@ -44,7 +44,7 @@ BDD é uma técnica de desenvolvimento de software ágil que surge através de u
 <p>ChromeDriver</p>
 
 # Lembrar de configurar as variáveis de ambiente
-![alt text](variaveis_ambiente.jpg)
+![alt text](img/variaveis_ambiente.jpg)
 
 ## Características do Selenium WebDriver:
 
@@ -66,7 +66,7 @@ Assert.assertEquals(2, algumMetodo(1));
 
 ## Exemplo de teste usando Selenium e Junit: 
 
-![](selenium.png)
+![](img/selenium.png)
 ## Comandos Selenium WebDriver
 
 	// Fecha a janela corrente.
@@ -114,7 +114,7 @@ Utilizei o Maven para facilitar a vida, ele vai cuidar da parte de gerenciamento
 
 Incluir as dependências do WebDriver, do JUnit e do AssertJ no pom.xml como mostro abaixo:
 
-![](poom.png)
+![](img/poom.png)
 
 ## Algumas vantagens de se utilizar JUnit:
 Permite a criação rápida de código de teste enquanto possibilita um aumento na qualidade do sistema sendo desenvolvido e testado;
