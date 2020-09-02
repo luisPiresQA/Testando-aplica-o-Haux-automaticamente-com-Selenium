@@ -27,11 +27,11 @@ nos testes vou apresentar apenas dois cenários para demostrar como tirar provei
 
 
 ## BDD cenário 1
-![alt text](cadastrar usuario.png)
+![alt text](cadastrar_usuario.png)
 
 ## Como fica após atomatizar o cenário 1 com Selenium e JUnit 
 
-![alt text](cadastrar usuario Selenium.png)
+![alt text](cadastrar_usuario_selenium.png)
 
 
 ## Ferramenta usada para os testes
