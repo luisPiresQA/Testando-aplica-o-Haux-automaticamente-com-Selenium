@@ -1,6 +1,6 @@
 ## Projeto para testes automatizados com Selenium 
 
-## Umpouco sobre a aplicação que serão feitos os testes
+## Um pouco sobre a aplicação onde serão feitos os testes
  
 <p align="left">
   <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="50" alt="accessibility text">
@@ -12,11 +12,12 @@ Eduardo Silva e Gustavo Susin inauguram, na próxima terça-feira, a Haux, um pr
 O novo modelo de franquia é focado em mudança intensiva de estilo de vida. A Haux abrirá na Rua Moreira César, 2.229, para trabalhar  a prevenção e o tratamento do excesso de peso, do diabetes e de doenças cardiovasculares. A estrutura também conta com academia. A nova marca será apresentada de forma online no dia 1º de setembro, às 19h,  com mediação da jornalista Laura Medina, especializada em saúde e bem-estar.
 </p>
 
-## Tecnicas para testa a aplicação
+## Técnicas para testa a aplicação
 
 Para validar um sistema com inumeros cenários de teste como neste caso, é preciso ganhar velocidade, mas sem abrir mão também da qualidade. Os testes vou apresentar são apenas dois um pouco para demostrar como tirar proveito das técnicas de BDD e posteriormente apresentarei o desenvolvimento em selenium.
 
-
+## BDD como isso vai ajudar?
+BDD é uma técnica de desenvolvimento de software ágil que surge através de uma crítica de Dan North ao Test Driven Development(Desenvolvimento orientado a testes), onde ele visava otimizar o conceito de ‘verificação e validação’ já aplicado, e tornar mais eficiente a construção de cenários a serem testados e/ou desenvolvidos.
 
 ## BDD cenário 1
 ![alt text](logar.png)
