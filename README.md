@@ -42,6 +42,9 @@ Para validar um sistema com inumeros cenários de teste como neste caso, é prec
 <p>IntelliJ IDEA Community Edition 2020.14</p>
 <p>ChromeDriver</p>
 
+# Lembrar de configurar variaveis de ambiente
+![alt text](variaveis_ambiente.jpg)
+
 ## Características Selenium WebDriver:
 
 A API Selenium WebDriver tem como principal objetivo automatizar ações do navegador, tais como submits de formulários, seleções em menus dropdown, digitação em campos texto, varredura de dados em elementos, HTML etc. Para entender melhor seus conceitos, a seguir, detalharemos algumas interfaces e outras classes principais que compõem o Selenium WebDriver.
