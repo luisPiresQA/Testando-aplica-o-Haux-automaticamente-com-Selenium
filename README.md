@@ -14,8 +14,7 @@ O novo modelo de franquia é focado em mudança intensiva de estilo de vida. A H
 
 ## Tecnicas para testa a aplicação
 
-Para validar um sistema com muitos cenários de teste como esse é preciso ganhar velocidade, mas sem abrir ão da qualidade
-nos testes vou apresentar apenas dois cenários para demostrar como tirar proveito das técnicas de BDD e posteriormente apresentarei mais com o selenium
+Para validar um sistema com inumeros cenários de teste como neste caso, é preciso ganhar velocidade, mas sem abrir mão também da qualidade. Os testes vou apresentar são apenas dois um pouco para demostrar como tirar proveito das técnicas de BDD e posteriormente apresentarei o desenvolvimento em selenium.
 
 
 
@@ -39,9 +38,9 @@ nos testes vou apresentar apenas dois cenários para demostrar como tirar provei
 ![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)![alt text](Junit.png)
 
 ## Intalações necessarias para esse projeto
-Java versão 8 Update 261r ___
-IntelliJ IDEA Community Edition 2020.14 ___
-ChromeDriver
+<p>Java versão 8 Update 261r</p>
+<p>IntelliJ IDEA Community Edition 2020.14</p>
+<p>ChromeDriver</p>
 
 ## Características Selenium WebDriver:
 
