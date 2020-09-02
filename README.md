@@ -1,4 +1,4 @@
-## Projeto testes automatizados com Selenium 
+## Projeto para testes automatizados com Selenium 
 
 ## Umpouco sobre a aplicação que serão feitos os testes
  
@@ -11,7 +11,9 @@ Babiana Mugnol, babiana.mugnol@rdgaucha.com.br</p>
 Eduardo Silva e Gustavo Susin inauguram, na próxima terça-feira, a Haux, um projeto de R$ 5 milhões com a primeira clínica-modelo em Caxias. A parceria é com o médico Clayton Macedo, doutor em endocrinologia clínica, e outros sócios. O potencial mapeado para expansão é de mais de 200 unidades em cidades acima de 60 mil habitantes no Brasil.
 O novo modelo de franquia é focado em mudança intensiva de estilo de vida. A Haux abrirá na Rua Moreira César, 2.229, para trabalhar  a prevenção e o tratamento do excesso de peso, do diabetes e de doenças cardiovasculares. A estrutura também conta com academia. A nova marca será apresentada de forma online no dia 1º de setembro, às 19h,  com mediação da jornalista Laura Medina, especializada em saúde e bem-estar.
 </p>
+
 ## Tecnicas para testa a aplicação
+
 Para validar um sistema com muitos cenários de teste como esse é preciso ganhar velocidade, mas sem abrir ão da qualidade
 nos testes vou apresentar apenas dois cenários para demostrar como tirar proveito das técnicas de BDD e posteriormente apresentarei mais com o selenium
 
