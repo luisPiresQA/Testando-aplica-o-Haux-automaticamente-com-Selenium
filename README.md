@@ -26,10 +26,10 @@ nos testes vou apresentar apenas dois cenários para demostrar como tirar provei
 ![alt text](logarSelenium.png)
 
 
-## BDD cenário 1
+## BDD cenário 2
 ![alt text](cadastrar_usuario.png)
 
-## Como fica após atomatizar o cenário 1 com Selenium e JUnit 
+## Como fica após atomatizar o cenário 2 com Selenium e JUnit 
 
 ![alt text](cadastrar_usuario_selenium.png)
 
