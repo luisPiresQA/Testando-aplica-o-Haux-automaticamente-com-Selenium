@@ -34,7 +34,7 @@ nos testes vou apresentar apenas dois cenários para demostrar como tirar provei
 
 
 ## Ferramenta usada para os testes
-![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)
+![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)![alt text](Junit.png)
 
 ## Intalações necessarias para esse projeto
 Java versão 8 Update 261r ___
