@@ -1,6 +1,6 @@
 ## Projeto testes automatizados com Selenium 
 
-## Qual é a aplicação a ser testada
+## Umpouco sobre a aplicação que faremos os testes
  
 <p align="left">
   <img src="https://pbs.twimg.com/profile_images/1057238424195923968/sPBdJODR_400x400.jpg" width="50" alt="accessibility text">
@@ -18,68 +18,22 @@ nos testes vou apresentar apenas dois cenários para demostrar como tirar provei
 
 
 
-## BDD
+## BDD cenário 1
 ![alt text](logar.png)
 
-## Atomatizando cenário 1
+## Como fica após atomatizar o cenário 1 com Selenium e JUnit 
 
 ![alt text](logarSelenium.png)
 
-<p align="center">🚀  @Test
-    public void loginSucesso() throws InterruptedException {
-        login.preencherCampoNome("usuario");
-        login.preencherCampoSenha("senha");
-        login.clicarBotaoLogar();
-        wait.until(ExpectedConditions
-                .visibilityOf(login.usuarioPresenteAposLogar()));
-        String texto = login.usuarioPresenteAposLogar().getText();
-        Assert.assertEquals("aristoteles", texto);
-    }
-	
-	
- ![alt text](123.png)
-  @Test
-    public void loginSucesso() throws InterruptedException {
-        login.preencherCampoNome("usuario");
-        login.preencherCampoSenha("senha");
-        login.clicarBotaoLogar();
-        wait.until(ExpectedConditions
-                .visibilityOf(login.usuarioPresenteAposLogar()));
-        String texto = login.usuarioPresenteAposLogar().getText();
-        Assert.assertEquals("aristoteles", texto);
-    }
+
+## BDD cenário 1
+![alt text](cadastrar usuario.png)
+
+## Como fica após atomatizar o cenário 1 com Selenium e JUnit 
+
+![alt text](cadastrar usuario Selenium.png)
 
 
-## BDD
-Cenário 2: Cadastrar novo cliente
-DADO que tenho perfil de administrador na aplicação 
-QUANDO quando preencho os campos obligatórios para um cadastro e clico em salvar
-ENTÃO esse novo cliente fica registrado no sistema
-
-## Atomatizando cenário 2
-  @Test
-    public void cadastrarNovoClienteProspect() {
-        cadastro.preencherCampoNomeLogin("usuario");
-        cadastro.preencherCampoSenha("senha");
-        cadastro.clicarBotaoLogar();
-            WebDriverWait wait = new WebDriverWait(driver, 30);
-            wait.until(ExpectedConditions.visibilityOf(cadastro.elementoQueDeveEstarVisivel()));
-            cadastro.clicarBotaoNovoCliente();
-            cadastro.clicarOpcaoClienteProspect();
-            cadastro.preencherCampoNomeCliente("LuisTest");
-            cadastro.preencherCampoTelefoneCliente("55386727289");
-            cadastro.preencherCampoEmailCliente("luisTeste@hotmail.com");
-            cadastro.preencherCampoDataNascimentoCliente("02071955");
-            cadastro.preencherCampoCPFCliente();
-            cadastro.selecionarOpcaoSexoBiologicoMasculino();
-            cadastro.clicarParaAbrirOpcaoComoconheceuaHaux();
-            cadastro.selecionarOpcaoIndicacaoDeCliente();
-            cadastro.clicarBotaoSalvarNovoCadastroProspect();
-        wait.until(ExpectedConditions.visibilityOf(cadastro.mensagemCadastradoComSucesso()));
-        String mensagemSucessoAlert = cadastro.mensagemCadastradoComSucesso().getText();
-        Assert.assertEquals(mensagemSucessoAlert,"Prospect cadastrado com sucesso.");
-    }
-    
 ## Ferramenta usada para os testes
 ![selenium-logo text-320x132](https://miro.medium.com/max/327/1*pdmSfsPk9iQmSyDFwFfzxQ.png)
 
