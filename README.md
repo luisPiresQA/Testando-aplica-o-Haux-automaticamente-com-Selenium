@@ -114,33 +114,7 @@ Utilizei o Maven para facilitar a vida, ele vai cuidar da parte de gerenciamento
 
 Incluir as dependências do WebDriver, do JUnit e do AssertJ no pom.xml como mostro abaixo:
 
-<!-- Selenium WebDriver -->
-<dependency>
-	<groupId>org.seleniumhq.selenium</groupId>
-	<artifactId>selenium-java</artifactId>
-	<version>3.13.0</version>
-	<scope>test</scope>
-</dependency>
-<!-- JUnit -->
-<dependency>
-	<groupId>org.junit.jupiter</groupId>
-	<artifactId>junit-jupiter-api</artifactId>
-	<version>5.2.0</version>
-	<scope>test</scope>
-</dependency>
-<dependency>
-	<groupId>org.junit.jupiter</groupId>
-	<artifactId>junit-jupiter-engine</artifactId>
-	<version>5.2.0</version>
-	<scope>test</scope>
-</dependency>
-<!-- AssertJ -->
-<dependency>
-	<groupId>org.assertj</groupId>
-	<artifactId>assertj-core</artifactId>
-	<version>3.10.0</version>
-	<scope>test</scope>
-</dependency>
+![](poom.png)
 
 ## Algumas vantagens de se utilizar JUnit:
 Permite a criação rápida de código de teste enquanto possibilita um aumento na qualidade do sistema sendo desenvolvido e testado;
